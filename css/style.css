@@ -1,0 +1,196 @@
+/*=========================================================================================
+* greanish #34c6d3
+* black gray #41464b
+* black light gray 64707b
+*
+*=========================================================================================*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto condesed', sans-serif;
+}
+
+.paralax-effect {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.content-box {
+    width: 100%;
+
+}
+
+.content-box-header {
+
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 45px;
+ animation-duration: 1s;
+
+}
+
+.content-box-header h3 {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 8px 0px 5px 0;
+}
+
+.header-underline {
+    border: #34c6d3 solid 2px;
+    width: 40px;
+    margin: 0 auto 0 auto;
+}
+
+/*======================butuns=======================*/
+.btn-general {
+
+    border-radius: 0;
+    border-width: 2px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-size: 16px;
+    padding: 10px
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #fff;
+    color: #41464b;
+}
+.btn-grenish {
+    border-color: #34c6d3;
+    color: #34c6d3;
+
+}
+
+.btn-grenish:hover,
+.btn-grenish:focus {
+    background-color: #34c6d3;
+    color: #fff;
+}
+/*=======================home========================
+*
+*/
+#home {
+    height: 100%;
+}
+
+#home-cover,
+#home-heading,
+#btnwork {
+    animation-duration: .5s;
+}
+
+
+#home-cover {
+    background-image: url('../img/bg-home.jpg');
+    height: 100%;
+
+    animation-delay: .1s;
+}
+
+#home-box {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+#home-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#home-heading h3 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+
+
+}
+
+#home-heading {
+
+    animation-delay: .5s;
+}
+
+#btnwork {
+    animation-delay: 1s;
+}
+
+/*====================================service=================*/
+.service-item:hover  .service-icon i{
+    color: #fff;
+    background-color:  #34c6d3;
+}
+.service-item {
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.service-header h3 {
+    font-size: 18px;
+}
+
+.service-icon i {
+    float: left;
+    padding: 16px;
+    color: #34c6d3;
+    margin: 4px;
+
+}
+
+.service-desc p {
+    font-size: 14px;
+    color: #41464b;
+}
+/*====================================about=================*/
+#about-box{
+    display: table;
+    float: lef;
+      height: 700px;
+    width: 100%;
+}
+#about-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.about-content p{
+      font-size: 14px;
+    color: #41464b;
+}
+#about-btn{
+    margin:20px 0 0 0;
+}
+
+#about-diagonal-bg{
+    width: 60%;
+    height: 700px;
+    float:right;
+    border-top: solid transparent 700px;
+    border-left: solid #fff 330px;
+    background-image: url(../img/bg-about.jpg)
+    
+}
+#about-underline{
+     border: #34c6d3 solid 2px;
+    width: 40px;
+   margin-bottom: 30px;
+}
