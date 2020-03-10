@@ -194,3 +194,20 @@ body {
     width: 40px;
    margin-bottom: 30px;
 }
+
+/*================================work============================*/
+div.works-container [class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
+}
+.image-wrapper a  img:hover{
+    transform: scale(1.5);
+    
+}
+.image-wrapper {
+    overflow: hidden;
+    
+}
+.image-wrapper img{
+    transition: transform .5s ease;
+}
