@@ -1,5 +1,5 @@
 /*=========================================================================================
-* greanish #34c6d3
+* greanish ##34c6d3
 * black gray #41464b
 * black light gray 64707b
 *
@@ -211,3 +211,37 @@ div.works-container [class*=col-] {
 .image-wrapper img{
     transition: transform .5s ease;
 }
+
+/*==============================team===========================*/
+.team h4.name {
+    text-transform:uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+.team h4.location {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: #34c6d3;
+}
+.social-link{
+    padding: 0;
+}
+.social-link li{
+    list-style: none;
+    display: inline;
+     color: #64707b;
+
+}
+
+.team{
+    text-align: center;
+   
+}
+.teams}{
+     animation-delay: .5s;
+    animation-duration: 1s;
+}
+
+
