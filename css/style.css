@@ -51,6 +51,9 @@ body {
 .content-box-white{
     color: #fff;
 }
+.content-box-black{
+    color: #000;
+}
 
 /*======================butuns=======================*/
 .btn-general {

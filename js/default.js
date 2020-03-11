@@ -36,3 +36,13 @@ $('.counter').counterUp({delay: 10,
     time: 2000});
     
 });
+
+
+$(document).ready(function () {
+    $('.clients').owlCarousel({
+         items :4,
+        loop: true,
+        margin: 20,
+        autoplay: true
+    });
+});
