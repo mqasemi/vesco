@@ -243,5 +243,55 @@ div.works-container [class*=col-] {
      animation-delay: .5s;
     animation-duration: 1s;
 }
+/*===========================testimonial=============================*/
+.cover-testimonial{
+    background-image: url('../img/bg-testimonials.jpg');
+}
+#testimonial-title h3{
+    color: #fff;
+    
+}
+#testimonial-box{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.testimonial-item{
+    text-align: center;
+   
+}
+.testimonial-item img{
+    max-width: 22%;
+    max-height: 22%;
+    margin: 0 auto 0 auto;
+}
+.testimonial-item blockquote{
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+     position: relative;
+    height: 108px;
+}
+.testimonial-item blockquote::before,
+.testimonial-item blockquote::after{
+   
+    color: #fff;
+    font-size: 73px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 1;
+    
+}
+.testimonial-item blockquote::before{
+  
+    content: '\201C';
+   
+      left: 0px;
+    top: -37px;
+}
+.testimonial-item blockquote::after{
+    content:'\201d';
+   bottom: 0;
+    right: 0;
 
-
+}

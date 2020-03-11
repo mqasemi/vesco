@@ -14,13 +14,18 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
+    $('.teams').owlCarousel({
          items :3,
         loop: true,
         margin: 20,
-        responsiveClass: true,
-        autoplay: true,
-       dotsEach:true,
-        center:true
+        autoplay: true
+    });
+});
+
+$(document).ready(function () {
+    $('.testimonail-items').owlCarousel({
+          items :1,
+        loop: true,
+        autoplay: true
     });
 });
