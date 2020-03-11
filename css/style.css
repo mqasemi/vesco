@@ -257,6 +257,7 @@ div.works-container [class*=col-] {
 }
 .testimonial-item{
     text-align: center;
+    margin-bottom: 20px;
    
 }
 .testimonial-item img{
