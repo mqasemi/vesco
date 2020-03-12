@@ -55,6 +55,9 @@ body {
     color: #000;
 }
 
+.white-color{
+    color: #fff;
+}
 /*======================butuns=======================*/
 .btn-general {
 
@@ -378,3 +381,61 @@ div.works-container [class*=col-] {
     padding-top: 50px;
     text-align: center;
 }
+/*==============================================client===========================*/
+.client{
+    margin-bottom: 20px;
+}
+
+/*===============================================contact=========================*/
+#contact {
+    padding-top: 50px;
+    padding-left: 0;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: rgb(0,0,0,.7);
+    margin-top: 10px;
+    
+}
+#contact-left-info >h3{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+    
+}
+#contact-left-info p{
+        color: rgb(255,255,255,.7);
+}
+#contact-left-info strong{
+    color: #fff;
+}
+#contact-address h3{
+    color: #fff;
+}
+#contact-address {
+    background-image: url('../img/world-map.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#contact-right-info >h3{
+    font-size: 26px;
+    font-weight: 400;
+    
+}
+#contact-right-info{
+    margin-left: 70px;
+}
+
+.form-control{
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff;
+    margin: 20px 0 20px 0;
+}
+
+.form-control:focus{
+     border-radius: 0;
+    background-color: transparent;
+    color: #fff;
+}
+
