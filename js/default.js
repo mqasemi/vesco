@@ -46,3 +46,28 @@ $(document).ready(function () {
         autoplay: true
     });
 });
+
+
+
+$(function(){
+    
+    $(window).scroll(function(){
+        if($(this).scrollTop()<50){
+        $('nav').removeClass('navbar-content-back');
+    }else{
+        $('nav').addClass('navbar-content-back');
+    }
+    });
+    
+});
+
+$(function(){
+   $('a.smooth-scroll').click(function(event){
+       event.preventDefault();
+       var section=$(this).attr('href');
+       
+       $('html , body').animate({
+           scrollTop:$(section).offset().top-56
+       },1250,"easeInOutExpo");
+   });
+});
