@@ -54,8 +54,10 @@ $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop()<50){
         $('nav').removeClass('navbar-content-back');
+            $('#back-to-top').fadeOut();
     }else{
         $('nav').addClass('navbar-content-back');
+        $('#back-to-top').fadeIn();
     }
     });
     

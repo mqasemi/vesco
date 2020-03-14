@@ -31,8 +31,7 @@ body {
 .content-box-header {
 
     text-align: center;
-    margin-bottom: 30px;
-    
+   padding-bottom: 30px;
     animation-duration: 1s;
 
 }
@@ -507,6 +506,7 @@ div.works-container [class*=col-] {
     font-weight: 400;
 }
 
+
 /*=============================================navbar=================*/
 #navbarSupportedContent{
    
@@ -541,4 +541,13 @@ ul.navbar-nav li>a {
 ul.navbar-nav li> a.active {
    
     color: #34c6d3 !important;
+}
+/*=======================================back-to-top=========================*/
+.back-to-top{
+  position: fixed;
+        padding: 5px 12px 7px 12px;
+        bottom: 8px;
+    right: 12px;
+    border-radius: 0;
+    display: none;
 }
