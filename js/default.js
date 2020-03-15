@@ -15,10 +15,25 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('.teams').owlCarousel({
-         items :3,
         loop: true,
         margin: 20,
-        autoplay: true
+        autoplay: true,
+        responsiveClass:true
+        ,responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        576:{
+            items:3,
+            nav:false
+        },
+        767:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
     });
 });
 
@@ -26,7 +41,7 @@ $(document).ready(function () {
     $('.testimonail-items').owlCarousel({
           items :1,
         loop: true,
-        autoplay: true
+        
     });
 });
 
@@ -40,10 +55,25 @@ $('.counter').counterUp({delay: 10,
 
 $(document).ready(function () {
     $('.clients').owlCarousel({
-         items :4,
         loop: true,
         margin: 20,
         autoplay: true
+        ,responsiveClass:true
+        ,responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        576:{
+            items:3,
+            nav:false
+        },
+        767:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
     });
 });
 
@@ -72,4 +102,13 @@ $(function(){
            scrollTop:$(section).offset().top-56
        },1250,"easeInOutExpo");
    });
+});
+
+
+
+
+$(function(){
+    $('.nav-link').on("click touch",function(){
+        $('.navbar-toggler').click();
+    });
 });
